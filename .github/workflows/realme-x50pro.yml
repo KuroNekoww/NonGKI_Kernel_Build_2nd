@@ -24,8 +24,8 @@ env:
   GCC_32_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9.git"
   GCC_32_BRANCH : "android12L-release"
 
-  DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "vendor/sm8250_defconfig"
+  DEFCONFIG_SOURCE: "https://github.com/KuroNekoww/android_kernel_realme_sm8250_ReSukiSU/raw/refs/heads/a14_resukisu/arch/arm64/configs/vendor/sm8250_defconfig"
+  DEFCONFIG_NAME : "sm8250_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
@@ -63,7 +63,7 @@ env:
   SUSFS_PATCH_FIXED: "" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
   REKERNEL_ENABLE: "false" # if u need Re:Kernel.
-  DROIDSPACES_ENABLE: "false" # if u need Droidspaces or LXC/Docker.
+  DROIDSPACES_ENABLE: "true" # if u need Droidspaces or LXC/Docker.
 
   HOOK_METHOD: "syscall" # Manual hook method -> syscall.
 
