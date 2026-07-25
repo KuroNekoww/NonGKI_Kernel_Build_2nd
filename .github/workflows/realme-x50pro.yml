@@ -12,8 +12,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/AOSPA/android_kernel_realme_sm8250.git"
-  KERNEL_BRANCH : "uvite"
+  KERNEL_SOURCE : "https://github.com/KuroNekoww/android_kernel_realme_sm8250_ReSukiSU.git"
+  KERNEL_BRANCH : "a14_upsrtream"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
@@ -24,8 +24,8 @@ env:
   GCC_32_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9.git"
   GCC_32_BRANCH : "android12L-release"
 
-  DEFCONFIG_SOURCE: "https://raw.githubusercontent.com/KuroNekoww/android_kernel_realme_sm8250_ReSukiSU/refs/heads/a14_resukisu/arch/arm64/configs/vendor/sm8250_defconfig"
-  DEFCONFIG_NAME : ""
+  DEFCONFIG_SOURCE: ""
+  DEFCONFIG_NAME : "vendor/sm8250_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
